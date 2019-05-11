@@ -8,15 +8,15 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class TabBarController: UITabBarController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.selectedIndex = 1//required value
         
-
     }
-
-
+    
+    
 }
 
